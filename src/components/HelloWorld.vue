@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1 style="font-weight: 500!important">{{ msg }}</h1>
+    <h1 style="font-weight: 500!important">websaite undefr c ontsuyrvction</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
