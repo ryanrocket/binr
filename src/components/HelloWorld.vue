@@ -2,11 +2,9 @@
   <div class="hello">
     <h1 style="font-weight: 500!important">websaite undefr c ontsuyrvction</h1>
     <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
+      Bascially, brazil is not a real country and is 100% percent fake. this webitte (when fiished) will provide factual eviudence as to how this is ture and a forum for other beilivers.
     </p>
-    <h3>Installed CLI Plugins</h3>
+    <h3>{{msg}}</h3>
     
   </div>
 </template>
