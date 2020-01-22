@@ -2,7 +2,7 @@
   <div class="hello">
     <h1 style="font-weight: 500!important">websaite undefr c ontsuyrvction</h1>
     <p>
-      Bascially, brazil is not a real country and is 100% percent fake. this webitte (when fiished) <br>will provide factual eviudence as to how this is ture and a forum for other beilivers.
+      Bascially, brazil is not a real country and is 100% percent fake. this webitte (when finished) <br>will provide factual eviudence as to how this is ture and a forum for other beilivers.
     </p>
     <h3>{{msg}}</h3>
     
