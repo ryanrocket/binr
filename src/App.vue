@@ -24,7 +24,6 @@
 
 <style lang="scss">
 #app {
-  cursor: url('http://cdn.onlinewebfonts.com/svg/img_72276.png'), auto !important;	
 }
 .column {
   float: left;
@@ -63,7 +62,6 @@ logo {
   color: #585757;
   z-index: 999 !important;
   pointer-events: auto;
-  cursor: url('http://cdn.onlinewebfonts.com/svg/img_72276.png'), auto;	
 }
 
 #nav {
