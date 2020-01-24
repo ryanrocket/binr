@@ -6,9 +6,9 @@
           Brazil Is Not Real!
         </logo>
       </div>
-      <div class="column">
+      <div class="column motdcol">
         <div center>
-          [ <span id="motd">v0.9.3</span> ]
+          [ <span id="motd">loading...</span> ]
         </div>
       </div>
       <div class="column">
@@ -33,6 +33,12 @@ conthead {
   height: auto;
   margin-top: 20px;
   
+}
+img {
+  width: 45%;
+}
+@media (max-width: 815px) {
+  .motdcol {visibility: hidden;}
 }
 #app {
   position: absolute;

@@ -20,5 +20,6 @@
         const dtNow = new Date();
 
         __globals.push(queryString, urlPathname, curTitle, dtNow);
+        document.title="tester";
     })();
 })();

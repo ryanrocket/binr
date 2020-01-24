@@ -18,6 +18,10 @@
       <b>Do You Have Any Evidence?</b>
       <br>
       -> Do we really need evidence?
+      <br><br>
+      <b>I've Been To Brazil! So It must Be real!</b>
+      <br>
+      -> it was a dream just wake up lmfao
     </content>
     
   </div>
