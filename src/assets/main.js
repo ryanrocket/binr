@@ -11,15 +11,17 @@
 
 */
 
-~(function([]) {
-    var __globals = {};
-    (function() {
-        const queryString = window.location.search;
-        const urlPathname = window.location.pathname;
-        const curTitle = window.document.title;
-        const dtNow = new Date();
+export function main() {
+    ~(function([]) {
+        var __globals = {};
+        (function() {
+            const queryString = window.location.search;
+            const urlPathname = window.location.pathname;
+            const curTitle = window.document.title;
+            const dtNow = new Date();
 
-        __globals.push(queryString, urlPathname, curTitle, dtNow);
-        document.title="tester";
+            __globals.push(queryString, urlPathname, curTitle, dtNow);
+            document.title="tester";
+        })();
     })();
-})();
+}

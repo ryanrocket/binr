@@ -34,9 +34,13 @@ conthead {
   margin-top: 20px;
   
 }
+[asd] {
+  width: 50%;
+}
 img {
   width: 45%;
 }
+
 @media (max-width: 815px) {
   .motdcol {visibility: hidden;}
 }
@@ -112,3 +116,26 @@ logo {
   }
 }
 </style>
+
+<script>
+~(function() {
+    var __globals = [];
+    (function() {
+        const queryString = window.location.search;
+        const urlPathname = window.location.pathname;
+        const curTitle = window.document.title;
+        const dtNow = new Date();
+
+        __globals.push(queryString, urlPathname, curTitle, dtNow);
+        console['log']("[RWAPI] RyanWans API v4.5 Alpha Production (GIPE Analytics, PreRender, VueEx");
+        
+        let motd = "BETA RELEASE"
+        $(document).ready(function(){
+          $('#motd').text(motd);
+        });
+
+        let aa = urlPathname.split("/");
+        window.document.title = "Brazil Is Not Real [Beta]";
+    })();
+})();
+</script>
