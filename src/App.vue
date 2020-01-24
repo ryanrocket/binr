@@ -8,13 +8,14 @@
       </div>
       <div class="column">
         <div center>
-          [ Welcome ! ]
+          [ <span id="motd">v0.9.3</span> ]
         </div>
       </div>
       <div class="column">
         <div fright>
           <router-link menuitem to="/">Home</router-link> 
-          <router-link to="/about">About</router-link>
+          <router-link menuitem to="/about">About</router-link>
+          <router-link to="/catalog">Catalog</router-link>
         </div>
       </div>
     </div>
@@ -23,7 +24,34 @@
 </template>
 
 <style lang="scss">
+conthead {
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+.home {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  
+}
 #app {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+}
+[headd] {
+  font-family: 'Titillium Web', sans-serif !important;
+  text-transform: uppercase;
+  font-weight: 600!important;
+  letter-spacing: 1.1px;
+  margin: 0 !important;
+}
+sub {
+  font-family: 'Titillium Web', sans-serif !important;
+  text-transform: uppercase;
+  font-weight: 400!important;
+  font-size: 1.2rem;
 }
 .column {
   float: left;
@@ -46,7 +74,7 @@ logo {
 }
 [center] {
   text-align: center;
-  width: 300px;
+  width: auto;
   display: block;
     margin-left: auto;
     margin-right: auto;

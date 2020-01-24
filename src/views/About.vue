@@ -1,5 +1,6 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <img src="../assets/realbinr.jpg" /><br>
+    <sub> Now Thats What I Call Evidence </sub>
   </div>
 </template>
