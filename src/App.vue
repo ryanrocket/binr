@@ -24,6 +24,22 @@
 </template>
 
 <style lang="scss">
+contentmain {
+  position:absolute;
+  left: 0;
+  top: 100px;
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  
+}
+
+.tleft {
+  text-align: left;
+}
+.tright {
+  text-align: right;
+}
 conthead {
   font-size: 1.5rem;
   text-decoration: underline;
@@ -35,7 +51,7 @@ conthead {
   
 }
 [asd] {
-  width: 50%;
+  width: 65%;
 }
 img {
   width: 45%;
@@ -66,6 +82,10 @@ sub {
 .column {
   float: left;
   width: 33.33%;
+}
+.columntwo {
+  float: left;
+  width: 50%;
 }
 
 /* Clear floats after the columns */

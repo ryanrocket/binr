@@ -5,6 +5,8 @@
     <img src="../assets/Brazilsign.jpg" /><br><hr asd><br>
     <img src="../assets/Spongebobmeme.jpg" /><br><hr asd><br>
     <img src="../assets/BBBBrazilisreal.jpg" /><br><hr asd><br>
-    <img src="../assets/Excuseme.jpg" />
+    <img src="../assets/Excuseme.jpg" /><br><hr asd><br>
+    <img src="../assets/JAi.jpg" /><br><hr asd><br>
+    <img src="../assets/Tom.jpg" />
   </div>
 </template>
