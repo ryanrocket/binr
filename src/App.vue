@@ -36,9 +36,11 @@ contentmain {
 
 .tleft {
   text-align: left;
+  padding-left: 8%;
 }
 .tright {
   text-align: right;
+  padding-right: 8%;
 }
 conthead {
   font-size: 1.5rem;
@@ -50,6 +52,8 @@ conthead {
   margin-top: 20px;
   
 }
+hr {height: 1px;
+    border: 0; border-top: 1px solid rgb(146, 145, 145); padding: 0; }
 [asd] {
   width: 65%;
 }
@@ -73,6 +77,10 @@ img {
   letter-spacing: 1.1px;
   margin: 0 !important;
 }
+[resp] {
+    font-size: 3vw;
+
+}
 sub {
   font-family: 'Titillium Web', sans-serif !important;
   text-transform: uppercase;
@@ -85,7 +93,7 @@ sub {
 }
 .columntwo {
   float: left;
-  width: 50%;
+  width: 42%;
 }
 
 /* Clear floats after the columns */
