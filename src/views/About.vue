@@ -10,7 +10,7 @@
       <div class="columntwo tright padr">
         <h1 headd resp>Our Mission</h1>
         <hr>
-        i cri
+        yes
       </div>
     </contentmain>
   </div>
