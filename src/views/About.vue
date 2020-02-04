@@ -1,5 +1,8 @@
 <template>
   <div class="about">
+    <content>
+      You are currently being redirected to our store
+    </content>
   </div>
 </template>
 
