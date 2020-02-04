@@ -14,7 +14,7 @@
       <div class="column">
         <div fright>
           <router-link menuitem to="/">Home</router-link> 
-          <router-link menuitem to="/about">About</router-link>
+          <router-link menuitem to="/about">Shop</router-link>
           <router-link to="/catalog">Catalog</router-link>
         </div>
       </div>
