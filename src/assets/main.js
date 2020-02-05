@@ -12,8 +12,7 @@
 */
 
 export function main() {
-    ~(function([]) {
-        var __globals = {};
+        var __globals = [];
         (function() {
             const queryString = window.location.search;
             const urlPathname = window.location.pathname;
@@ -21,7 +20,37 @@ export function main() {
             const dtNow = new Date();
 
             __globals.push(queryString, urlPathname, curTitle, dtNow);
-            document.title="tester";
+            document.title="Brazil Is Not Real";
         })();
-    })();
+        var comment = document.createComment(''+ 
+        '\n_______     __      _   _     __          __     _   _  _____ \n'+
+        '|  __ \\ \\   / //\\   | \\ | |    \\ \\        / /\\   | \\ | |/ ____|\n'+
+        '| |__) \\ \\_/ //  \\  |  \\| |     \\ \\  /\\  / /  \\  |  \\| | (___  \n'+
+        '|  _  / \\   // /\\ \\ | . ` |      \\ \\/  \\/ / /\\ \\ | . ` |\\___ \\ \n'+
+        '| | \\ \\  | |/ ____ \\| |\\  |       \\  /\\  / ____ \\| |\\  |____) |\n'+
+        '|_|  \\_\\ |_/_/    \\_\\_| \\_|        \\/  \\/_/    \\_\\_| \\_|_____/ \n');
+
+        document.getElementsByTagName('html')[0].appendChild(comment);
+        return;
 }
+
+~(function() {
+    var __globals = [];
+    (function() {
+        const queryString = window.location.search;
+        const urlPathname = window.location.pathname;
+        const curTitle = window.document.title;
+        const dtNow = new Date();
+
+        __globals.push(queryString, urlPathname, curTitle, dtNow);
+        console['log']("[RWAPI] RyanWans API v4.5 Alpha Production (GIPE Analytics, PreRender, VueEx");
+        
+        let motd = "BETA RELEASE"
+        $(document).ready(function(){
+          $('#motd').text(motd);
+        });
+
+        let aa = urlPathname.split("/");
+        window.document.title = "Brazil Is Not Real [Beta]";
+    })();
+})();

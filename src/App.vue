@@ -23,6 +23,8 @@
   </div>
 </template>
 
+<script src="./assets/main.js"></script>
+
 <style lang="scss">
 contentmain {
   position:absolute;
@@ -166,4 +168,23 @@ logo {
         window.document.title = "Brazil Is Not Real [Beta]";
     })();
 })();
+
+</script>
+
+<script lang="ts">
+
+import * as main from './assets/main.js';
+main.main();
+
+export default {
+  name: 'App',
+  methods: {
+    newpage() {
+      main.main();
+    }
+  },
+  created() {
+    this.newpage();
+  },
+};
 </script>
