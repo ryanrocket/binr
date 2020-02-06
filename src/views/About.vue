@@ -10,5 +10,5 @@
 export default {
   
 }
-window.location.href="https://www.bonfire.com/brazil-is-not-real-official-merch-1/";
+window.location.href="https://www.bonfire.com/store/brazil-is-not-real";
 </script>
