@@ -22,6 +22,8 @@
       <b>I've Been To Brazil! So It must Be real!</b>
       <br>
       -> it was a dream just wake up lmfao
+      <br><br><br><br>
+      <img src="../assets/lamerch.png" style="width: 85%!important" onclick="window.location.href='https://bonfire.com/store/brazil-is-not-real'"/>
     </content>
     
   </div>
