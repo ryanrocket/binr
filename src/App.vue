@@ -73,7 +73,7 @@ img {
   height: 100%;
 }
 [headd] {
-  font-family: 'Titillium Web', sans-serif !important;
+  font-family: sans-serif !important;
   text-transform: uppercase;
   font-weight: 600!important;
   letter-spacing: 1.1px;
@@ -84,7 +84,7 @@ img {
 
 }
 sub {
-  font-family: 'Titillium Web', sans-serif !important;
+  font-family: sans-serif !important;
   text-transform: uppercase;
   font-weight: 400!important;
   font-size: 1.2rem;
